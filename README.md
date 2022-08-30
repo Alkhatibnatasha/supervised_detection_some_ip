@@ -4,11 +4,11 @@ SOME/IP is an automotive/embedded communication protocol which supports remote p
 ## Dependencies ##
 The project was developed with the following library versions. Running with other versions may crash or produce incorrect results.
 
-*Python 3.8.10
-*CUDA Version: 11.2
-*torch==1.10.0
-*numpy==1.19.5
-*pandas==1.2.5
-*scikit-learn==0.24.2
-*json==2.0.9
-*pickle==4.0
+* Python 3.8.10
+* CUDA Version: 11.2
+* torch==1.10.0
+* numpy==1.19.5
+* pandas==1.2.5
+* scikit-learn==0.24.2
+* json==2.0.9
+* pickle==4.0
