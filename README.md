@@ -19,11 +19,11 @@ The project was developed with the following library versions. Running with othe
 
 ## Experiment ## 
 
-```
+
+```python
 #Dataset of SOME/IP network configuration 1
 cd config1
-```
-```python
+
 #Train the lstm algorithm
 python someip_lstm.py train
 #Test the lstm algorithm
