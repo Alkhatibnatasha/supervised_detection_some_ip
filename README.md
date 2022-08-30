@@ -19,16 +19,13 @@ The project was developed with the following library versions. Running with othe
 
 ## Experiment ## 
 
-```
-```bat
-cd config1
-```
 ```python
+cd config1
+
 #Train the lstm algorithm
 python someip_lstm.py train
 #Test the lstm algorithm
 python someip_lstm.py test
 #Check the inference time of the lstm algorithm
 python someip_lstm.py time
-```
 ```
