@@ -20,7 +20,7 @@ The project was developed with the following library versions. Running with othe
 ## Experiment ## 
 
 ```
-#The first configuration
+#Dataset of SOME/IP network configuration 1
  cd config1
 
  #Train the lstm algorithm
