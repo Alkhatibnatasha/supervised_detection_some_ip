@@ -24,7 +24,7 @@ The project was developed with the following library versions. Running with othe
 ## Experiment ## 
 
 ```python
-cd config1
+cd network_configuration_1
 
 #Train the lstm algorithm
 python someip_lstm.py train
