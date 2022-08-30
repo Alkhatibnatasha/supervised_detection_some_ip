@@ -19,7 +19,8 @@ The project was developed with the following library versions. Running with othe
 
 ## Experiment ## 
 
- `cd config1
+ ```
+ cd config1
 
  #Train the lstm algorithm
  python someip_lstm.py train
@@ -28,4 +29,4 @@ The project was developed with the following library versions. Running with othe
  #Check the inference time of the lstm algorithm
  python someip_lstm.py time
  
- `
+ ```
