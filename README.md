@@ -21,7 +21,7 @@ The project was developed with the following library versions. Running with othe
 
 ```
 #Dataset of SOME/IP network configuration 1
-#0969DA cd config1
+`#0969DA` cd config1
 
 #Train the lstm algorithm
 python someip_lstm.py train
