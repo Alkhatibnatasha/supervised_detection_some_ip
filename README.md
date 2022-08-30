@@ -21,13 +21,13 @@ The project was developed with the following library versions. Running with othe
 
 ```
 #Dataset of SOME/IP network configuration 1
- cd config1
+	`#RRGGBB`cd config1
 
- #Train the lstm algorithm
- python someip_lstm.py train
- #Test the lstm algorithm
- python someip_lstm.py test
- #Check the inference time of the lstm algorithm
- python someip_lstm.py time
+#Train the lstm algorithm
+python someip_lstm.py train
+#Test the lstm algorithm
+python someip_lstm.py test
+#Check the inference time of the lstm algorithm
+python someip_lstm.py time
  
  ```
