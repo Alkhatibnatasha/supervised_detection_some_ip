@@ -19,7 +19,8 @@ The project was developed with the following library versions. Running with othe
 
 ## Experiment ## 
 
- ```
+```
+#The first configuration
  cd config1
 
  #Train the lstm algorithm
