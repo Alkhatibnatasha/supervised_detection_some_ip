@@ -12,3 +12,6 @@ The project was developed with the following library versions. Running with othe
 * scikit-learn==0.24.2
 * json==2.0.9
 * pickle==4.0
+
+## Setup Instructions ## 
+1. Clone this repo: git clone https://github.com/Alkhatibnatasha/supervised_detection_some_ip
