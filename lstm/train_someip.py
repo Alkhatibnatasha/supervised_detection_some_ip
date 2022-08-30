@@ -139,7 +139,7 @@ class Trainer():
 
         print("\nLoading Train Dataset")
         
-        train_dataset = SOMEIPDataset(self.path_train,window_size=self.window_size, s=self.stride, balanced=self.balanced, subsample_size=self.subsample_size,train_state = 'train',ratio=self.ratio)
+        train_dataset = SOMEIPDataset(self.path_train,window_size=self.window_size, s=self.stride, balanced=self.balanced, subsample_size=self.subsample_size,train_state = 'test',ratio=self.ratio)
         
         
         print("\nLoading valid Dataset")
