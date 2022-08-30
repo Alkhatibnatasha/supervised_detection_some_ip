@@ -7,7 +7,7 @@ import os
 import argparse
 import torch
 
-from transformer import Trainer,Predictor
+from transformer import Trainer,Predictor,Time
 from transformer.dataset.utils import seed_everything
 import torch.nn as nn 
 
@@ -17,8 +17,7 @@ cwd_orig=os.getcwd()
 options = dict()
 options['device'] = 'cuda' if torch.cuda.is_available() else 'cpu'
 options['model'] = "transformer"
-#checkproblem (../output/config1/)
-options["output_dir"] = "../output/config1/"
+options["output_dir"] = "../output/network_configuration_1/"
 options["model_dir"] = options["output_dir"] +options['model']+"/"
 options["model_path"] = options["model_dir"]+"/best_model.pt"
 options["path_train"] = options["output_dir"] + "data/train"
