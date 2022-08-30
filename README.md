@@ -29,3 +29,8 @@ python someip_lstm.py test
 #Check the inference time of the lstm algorithm
 python someip_lstm.py time
 ```
+
+## Folders created during execution ## 
+```
+project/output //Stores intermediate files and final results during execution
+```
