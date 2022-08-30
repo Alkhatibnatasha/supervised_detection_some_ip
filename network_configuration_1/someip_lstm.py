@@ -7,7 +7,7 @@ import os
 import argparse
 import torch
 
-from lstm import Trainer,Predictor
+from lstm import Trainer,Predictor,Time
 from lstm.dataset.utils import seed_everything
 import torch.nn as nn 
 
@@ -17,8 +17,7 @@ cwd_orig=os.getcwd()
 options = dict()
 options['device'] = 'cuda' if torch.cuda.is_available() else 'cpu'
 options['model'] = "lstm"
-#checkproblem (../output/config1/)
-options["output_dir"] = "../output/config1/"
+options["output_dir"] = "../output/network_configuration_1/"
 options["model_dir"] = options["output_dir"] +options['model']+"/"
 options["model_path"] = options["model_dir"]+"/best_model.pt"
 options["path_train"] = options["output_dir"] + "data/train"
@@ -68,12 +67,18 @@ if __name__ == "__main__":
     predict_parser = subparsers.add_parser('predict')
     predict_parser.set_defaults(mode='predict')
 
+    time_parser=subparsers.add_parser('time')
+    time_parser.set_defaults(mode='time')
+
     args = parser.parse_args()
     print("arguments", args)
     
     if args.mode == 'train':
         print(options)
         Trainer(options).train()
-        
+
     elif args.mode == 'predict':
         Predictor(options).predict()
+
+    elif args.mode=='time':
+        Time(options).calculate()
